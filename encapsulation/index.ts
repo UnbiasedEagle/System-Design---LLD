@@ -1,6 +1,6 @@
 class Product {
   private _name: string;
-  private _price: number;
+  private _price: number = 0;
 
   constructor(name: string, price: number) {
     this._name = name;
